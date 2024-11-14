@@ -1,4 +1,4 @@
-# Visualizador de Tareas y Evaluaciones - Curso BIG DATA
+# Tareas y Evaluaciones - Curso BIG DATA
 
 
 ---
