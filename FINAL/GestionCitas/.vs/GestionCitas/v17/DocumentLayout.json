@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VICTORQH\\source\\repos\\GestionCitas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}|GestionCitas.dwproj|C:\\Users\\VICTORQH\\source\\repos\\GestionCitas\\BD Clinica.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}|GestionCitas.dwproj|solutionrelative:BD Clinica.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BD Clinica.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\VICTORQH\\source\\repos\\GestionCitas\\BD Clinica.cube",
+              "RelativeDocumentMoniker": "BD Clinica.cube",
+              "ToolTip": "C:\\Users\\VICTORQH\\source\\repos\\GestionCitas\\BD Clinica.cube [Design]",
+              "RelativeToolTip": "BD Clinica.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-25T06:18:30.783Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

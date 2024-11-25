@@ -1,0 +1,266 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3f5026c1-8184-430e-974f-055b49fbf0db" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Citas</ID>
+  <Name>Citas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5081" scrolltop="-6350" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="13203" y="17542" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Citas" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Citas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5081</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6350</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7c9c9e88-d26b-4c56-a5d2-80a4d4545edb">
+    <DataSourceViewID>BD Clinica</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="f788a17d-8b12-4122-9bb8-4b8ab96ec1d8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c0599d0b-eadf-4019-b8d6-9dec8914f8f8">
+      <ID>Cita ID</ID>
+      <Name>Cita ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c5ede38f-129c-44f8-ad7d-635e17cea656">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4884ce02-2891-4ca3-896d-c9652ab0c63f">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>CitaID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ba0c3ea5-497f-41d3-96ae-b3ca68d9d959">
+          <AttributeID>Fecha</AttributeID>
+          <Name>Fecha</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9dbcbd2b-c334-4c06-a603-213580eea17e">
+          <AttributeID>Medico ID</AttributeID>
+          <Name>Medico ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c18116e7-e07c-4b3c-ae34-82d904152df7">
+          <AttributeID>Paciente ID</AttributeID>
+          <Name>Paciente ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1ff8e2ce-aa98-4f3e-ba0c-cd0c8aadc47d">
+          <AttributeID>Servicio ID</AttributeID>
+          <Name>Servicio ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ef822cc0-1c03-4a60-8696-52e78fcc1286">
+          <AttributeID>N Consultorio</AttributeID>
+          <Name>N Consultorio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8db9e9a9-3878-4b57-bf46-1561e46e320f">
+          <AttributeID>Hora</AttributeID>
+          <Name>Hora</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c63ea7d5-1a95-40f9-834e-46f1fbcf3108">
+          <AttributeID>Motivo</AttributeID>
+          <Name>Motivo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e78fbcf3-5b2b-4c9c-97d8-b9058b7619e5">
+          <AttributeID>Estado</AttributeID>
+          <Name>Estado</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1d30bb85-eba7-4ec1-b712-e6aed6249a19">
+      <ID>Fecha</ID>
+      <Name>Fecha</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8dae75f2-f7f8-477b-a57d-06a2bd0e19b0">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f2179eb3-5029-4ca1-8a95-0bdf491c3d06">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>Fecha</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b5ec63a6-3395-46e9-a31c-bcff59a9e1aa">
+      <ID>Medico ID</ID>
+      <Name>Medico ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8e15eb06-a154-47b1-a3cd-220bcd9a70c8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c7f86f1e-2e9f-4562-b091-5f15c8abfcc5">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>MedicoID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d8d38bf6-06d6-4781-b6be-fbea286c1726">
+      <ID>Paciente ID</ID>
+      <Name>Paciente ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b679b858-64d4-46a7-8d62-486fd8532693">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be3f28bf-2c94-4c63-8b45-a05938e0190f">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>PacienteID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6176f345-d41d-4a00-9df9-9623fdd1c812">
+      <ID>Servicio ID</ID>
+      <Name>Servicio ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc0b008d-7434-4b83-b73b-5e0248e32177">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="413be474-b33c-417d-b575-de90603ef85c">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>ServicioID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40a002a1-746f-4a97-a79a-b41eaf2d774d">
+      <ID>N Consultorio</ID>
+      <Name>N Consultorio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7407c883-73ba-47d3-aa82-37c97c4f40fb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a8f218fc-d388-4c91-80c9-9375436ecd09">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>NConsultorio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="59f31c6a-65b6-4734-bc23-d43bafe951f4">
+      <ID>Hora</ID>
+      <Name>Hora</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="17124541-137c-4606-96a0-bf7496e19572">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce12a422-a764-4e1c-b216-af7be1fad888">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>Hora</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a23a39ae-586a-4de4-9915-c9bde1b4e6ab">
+      <ID>Motivo</ID>
+      <Name>Motivo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9ce3e4e6-a206-408d-8336-cad0830c9ac3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8f2a110e-be05-4973-81a3-c929d7f0c395">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>Motivo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="08486ce5-a964-4a57-ba15-dec3d1940615">
+      <ID>Estado</ID>
+      <Name>Estado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="919ecc44-6163-42ba-a3e1-6bb3ffa58f47">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4675e87c-4649-4967-8210-70ea2c211f52">
+            <TableID>dbo_Citas</TableID>
+            <ColumnID>Estado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

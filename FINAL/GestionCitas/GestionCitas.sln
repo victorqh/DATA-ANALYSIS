@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "GestionCitas", "GestionCitas.dwproj", "{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}.Development|Default.ActiveCfg = Development
+		{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}.Development|Default.Build.0 = Development
+		{7E6BE36F-AC92-4F22-BA26-8A93C603B6A8}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EED6D75D-8F9B-443E-9D94-E173D37FCC98}
+	EndGlobalSection
+EndGlobal
